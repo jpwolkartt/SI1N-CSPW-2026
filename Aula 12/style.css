@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(to bottom, black, red);
+    background-attachment: fixed;
+    color: white; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.links, .referencias {
+    background-color:black; 
+    border: 3px solid white;                   
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.link-musica {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.link-musica:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.link-musica:active {
+    background-color: yellow;
+    color: black;
+}
+
+
+.link-musica::before {
+    content: "♬ "; 
+}
+
+.link-musica::after {
+    content: " ♬";
+}
