@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border: 6px solid black;
+    border-radius: 8px;
+    }
+
+
+.img {
+    height: 50px;
+    width: auto;
+    
+}
+
+.frase {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.frase span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 8px;
+    
+}
+/*---------------------------------------------------------*/
+
+.galeria {
+    display: flex;
+    border: 6px solid #555;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 16px;
+
+}
+
+.item {
+    height: 55px;
+    background-color: black;
+    border-radius: 10px;
+    flex-grow: 1;
+    min-width: 120px;
+}
+
+.itemedio {
+    height: 30px;
+    background-color: black;
+    border-radius: 10px;
+    flex-grow: 1;
+    min-width: 120px;
+}
+
+.itemgrande {
+    height: 100px;
+    background-color: black;
+    border-radius: 10px;
+    flex-grow: 1;
+    min-width: 120px;
+}
