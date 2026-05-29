@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.calculadora-box {
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    width: 450px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.campos-linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+input, select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#diaNasc { width: 60px; }
+#mesNasc { width: 120px; }
+#anoNasc { width: 80px; }
+
+#num1, #num2 {
+    width: 70px;
+}
+#operacao {
+    width: 60px;
+}
+
+button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #336699;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-largo {
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #224466;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #333;
+    text-align: left;
+    font-size: 16px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.topo-calculadora {
+    background-image: url('mengao.jpg');
+    background-color: #e9ecef;
+    padding: 15px;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.topo-calculadora h2 {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}

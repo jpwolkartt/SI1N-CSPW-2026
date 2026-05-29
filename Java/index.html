@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="calculadora-box">
+        <div class="topo-idade">
+            <h2>Calculadora de Idade</h2>
+        </div>
+
+
+        <div class="campos-linha">
+            <label>Data de Nascimento: </label>
+            <input type="number" id="diaNasc" placeholder>p
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+
+
+    <div class="calculadora-box">
+        <div class="topo-calculadora">
+            <h2>Calculadora</h2>
+        </div>
+        <input type="number"  id="num1" value="0">
+
+        <select id="operacao">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+
+        <input type="number" id="num2" value="0">
+        <button onclick="calcularMatematica()">Calcular</button>
+        <h3 id="resultadoMat">Resultado: </h3>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
